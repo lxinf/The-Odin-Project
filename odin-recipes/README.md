@@ -13,7 +13,7 @@ Instead I modified the direction of the project to fit my organzation style.
 
 2. I created a new folder called odin-recipes with a  README.md file on the GitHub.com website.
 
-3. I'll be cloining the The-Odin-Project to my local machine with the command git clone git@github.com:lxinf/The-Odin-Project.git and this will bring all the current repository folder included the odin-recipes that was just created and this README.md file.
+3. Instead of cloning The-Odin-Project to my local machine with the command git clone git@github.com:lxinf/The-Odin-Project.git, I'll be pulling with command git pull. I'll use git pull, because this directory already exist on my local machine. The git pull will update my currrent directory on my local machine and will update any changes including the odin-recipes that was just created and this README.md file.
 
 4. Now on my local machine I should able to located and cd into the odin-recipe repo and open the README.md file. 
 
