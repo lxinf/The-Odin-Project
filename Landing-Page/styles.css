@@ -1,0 +1,41 @@
+body{
+    font-family:"Roboto", sans-serif;
+}
+.hero, header, footer{
+    background-color: #1F2937;
+    color:#fff;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.nav-links, .hero>p, a{
+font-size: 18px;
+color: #E5E7EB;
+list-style-type: none;
+text-decoration: none;
+
+}
+button, .call-to-action{
+    background-color: #3882F6;
+    color: #fff;
+}
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.quote{
+    background-color: #E5E7EB;
+}
+.quote-text{
+    font-size: 36;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
