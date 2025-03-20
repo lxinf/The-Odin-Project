@@ -1,18 +1,36 @@
 body{
     font-family:"Roboto", sans-serif;
 }
-.hero, header, footer{
+.hero, header, footer, .content {
     background-color: #1F2937;
     color:#fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 h1{
     font-size: 48px;
     font-weight: 900;
     color:#F9FAF8;
 }
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 16px;
+}
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+  
 }
 .nav-links, .hero>p, a{
 font-size: 18px;
@@ -21,9 +39,19 @@ list-style-type: none;
 text-decoration: none;
 
 }
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    
+}
 button, .call-to-action{
     background-color: #3882F6;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h2{
     font-size: 36px;
@@ -38,4 +66,7 @@ h2{
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+  
 }
