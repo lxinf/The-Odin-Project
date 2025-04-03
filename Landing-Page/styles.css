@@ -7,7 +7,7 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:16px;
 }
 footer{
@@ -24,10 +24,16 @@ h1{
 }
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 16px;
+
 }
+.hero{
+    margin-bottom: 80px;
+    margin-left:3em;
+    margin-right: 14em;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
